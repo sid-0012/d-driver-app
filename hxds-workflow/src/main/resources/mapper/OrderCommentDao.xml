@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.hxds.workflow.db.dao.OrderCommentDao">
+    <select id="searchCommentIdAndInstanceId" parameterType="long" resultType="HashMap">
+        SELECT CAST(id AS CHAR) AS id,
+               instance_id      AS instanceId
+        FROM tb_order_comment
+        WHERE 1=1
+        <if test="commentId!=null">
+            AND id = #{commentId}
+        </if>
+        <if test="orderId!=null">
+            AND order_id = #{orderId}
+        </if>
+    </select>
+    <update id="startWorkflow" parameterType="Map">
+        UPDATE tb_order_comment
+        SET instance_id = #{instanceId},
+            status      = 2
+        WHERE id = #{commentId}
+    </update>
+    <update id="acceptAppeal" parameterType="Map">
+        UPDATE tb_order_comment
+        SET user_id  =#{userId},
+            user_name=#{userName}
+        WHERE id = #{commentId}
+    </update>
+    <update id="updateStatus" parameterType="Map">
+        UPDATE tb_order_comment
+        SET `status` = #{status}
+        WHERE id = #{commentId}
+    </update>
+    <update id="updateRateAndRemark" parameterType="Map">
+        UPDATE tb_order_comment
+        SET rate   = #{rate},
+            remark = #{remark}
+        WHERE id = #{commentId}
+    </update>
+</mapper>

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v7.6 DEMO
+   Web: http://www.allatori.com
+
+   Log created: Thu May 12 13:55:04 CST 2022
+-->
+
+<!--
+CLASS NOT FOUND: cn.hutool.crypto.symmetric.AES
+  ADD NEEDED JAR TO THE 'classpath' ELEMENT OF THE CONFIGURATION FILE.
+-->
+
+<allatori>
+ <mapping>
+  <class old="com.example.hxds.rule.controller.form.SearchCancelRuleByIdForm" new="com.example.hxds.rule.controller.form.SearchCancelRuleByIdForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="9" e="9"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="9" e="9"/>
+   <method old="getRuleId()Ljava/lang/Long;" new="getRuleId" s="15" e="15"/>
+   <method old="hashCode()I" new="hashCode" s="9" e="9"/>
+   <method old="setRuleId(Ljava/lang/Long;)V" new="setRuleId" s="9" e="9"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="9" e="9"/>
+   <field old="ruleId Ljava/lang/Long;" new="ruleId"/>
+  </class>
+  <class old="com.example.hxds.rule.db.pojo.CancelRuleEntity" new="com.example.hxds.rule.db.pojo.CancelRuleEntity">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="13" e="13"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="13" e="13"/>
+   <method old="getCode()Ljava/lang/String;" new="getCode" s="23" e="23"/>
+   <method old="getCreateTime()Ljava/util/Date;" new="getCreateTime" s="48" e="48"/>
+   <method old="getId()Ljava/lang/Long;" new="getId" s="18" e="18"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="28" e="28"/>
+   <method old="getRule()Ljava/lang/String;" new="getRule" s="33" e="33"/>
+   <method old="getStatus()Ljava/lang/Byte;" new="getStatus" s="43" e="43"/>
+   <method old="getType()Ljava/lang/Byte;" new="getType" s="38" e="38"/>
+   <method old="hashCode()I" new="hashCode" s="13" e="13"/>
+   <method old="setCode(Ljava/lang/String;)V" new="setCode" s="13" e="13"/>
+   <method old="setCreateTime(Ljava/util/Date;)V" new="setCreateTime" s="13" e="13"/>
+   <method old="setId(Ljava/lang/Long;)V" new="setId" s="13" e="13"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="13" e="13"/>
+   <method old="setRule(Ljava/lang/String;)V" new="setRule" s="13" e="13"/>
+   <method old="setStatus(Ljava/lang/Byte;)V" new="setStatus" s="13" e="13"/>
+   <method old="setType(Ljava/lang/Byte;)V" new="setType" s="13" e="13"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="13" e="13"/>
+   <field old="code Ljava/lang/String;" new="code"/>
+   <field old="createTime Ljava/util/Date;" new="createTime"/>
+   <field old="id Ljava/lang/Long;" new="id"/>
+   <field old="name Ljava/lang/String;" new="name"/>
+   <field old="rule Ljava/lang/String;" new="rule"/>
+   <field old="serialVersionUID J" new="serialVersionUID"/>
+   <field old="status Ljava/lang/Byte;" new="status"/>
+   <field old="type Ljava/lang/Byte;" new="type"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.BaseController$1" new="com.example.hxds.rule.controller.BaseController$1">
+   <field old="this$0 Lcom/example/hxds/rule/controller/BaseController;" new="this$0"/>
+   <field old="val$tcode Ljava/lang/String;" new="val$tcode"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.CalculateDriverCancelOrderForm" new="com.example.hxds.rule.controller.form.CalculateDriverCancelOrderForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getAcceptMinute()Ljava/lang/Short;" new="getAcceptMinute" s="28" e="28"/>
+   <method old="getCancelNum()Ljava/lang/Short;" new="getCancelNum" s="23" e="23"/>
+   <method old="getStatus()Ljava/lang/String;" new="getStatus" s="18" e="18"/>
+   <method old="getWaitingMinute()Ljava/lang/Short;" new="getWaitingMinute" s="33" e="33"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setAcceptMinute(Ljava/lang/Short;)V" new="setAcceptMinute" s="11" e="11"/>
+   <method old="setCancelNum(Ljava/lang/Short;)V" new="setCancelNum" s="11" e="11"/>
+   <method old="setStatus(Ljava/lang/String;)V" new="setStatus" s="11" e="11"/>
+   <method old="setWaitingMinute(Ljava/lang/Short;)V" new="setWaitingMinute" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="acceptMinute Ljava/lang/Short;" new="acceptMinute"/>
+   <field old="cancelNum Ljava/lang/Short;" new="cancelNum"/>
+   <field old="status Ljava/lang/String;" new="status"/>
+   <field old="waitingMinute Ljava/lang/Short;" new="waitingMinute"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.EstimateOrderChargeForm" new="com.example.hxds.rule.controller.form.EstimateOrderChargeForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="9" e="9"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="9" e="9"/>
+   <method old="getMileage()Ljava/lang/String;" new="getMileage" s="15" e="15"/>
+   <method old="getTime()Ljava/lang/String;" new="getTime" s="20" e="20"/>
+   <method old="hashCode()I" new="hashCode" s="9" e="9"/>
+   <method old="setMileage(Ljava/lang/String;)V" new="setMileage" s="9" e="9"/>
+   <method old="setTime(Ljava/lang/String;)V" new="setTime" s="9" e="9"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="9" e="9"/>
+   <field old="mileage Ljava/lang/String;" new="mileage"/>
+   <field old="time Ljava/lang/String;" new="time"/>
+  </class>
+  <class old="com.example.hxds.rule.service.CancelRuleService" new="com.example.hxds.rule.service.CancelRuleService">
+   <method old="calculateDriverCancelOrder(Ljava/lang/String;IIILjava/lang/String;)Ljava/util/HashMap;" new="calculateDriverCancelOrder"/>
+   <method old="searchCancelRuleById(J)Ljava/util/HashMap;" new="searchCancelRuleById"/>
+  </class>
+  <class old="com.example.hxds.rule.db.dao.OrderCommentDao" new="com.example.hxds.rule.db.dao.OrderCommentDao">
+   <method old="searchNegativeCountInDay(J)J" new="searchNegativeCountInDay"/>
+  </class>
+  <class old="com.example.hxds.rule.bean.Voucher" new="com.example.hxds.rule.bean.Voucher">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="5" e="5"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="5" e="5"/>
+   <method old="getDays()Ljava/lang/Integer;" new="getDays" s="19" e="19"/>
+   <method old="getDiscount()Ljava/lang/String;" new="getDiscount" s="13" e="13"/>
+   <method old="getEndTime()Ljava/lang/String;" new="getEndTime" s="21" e="21"/>
+   <method old="getLimitQuota()Ljava/lang/Integer;" new="getLimitQuota" s="16" e="16"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="7" e="7"/>
+   <method old="getRemark()Ljava/lang/String;" new="getRemark" s="8" e="8"/>
+   <method old="getStartTime()Ljava/lang/String;" new="getStartTime" s="20" e="20"/>
+   <method old="getStatus()Ljava/lang/Integer;" new="getStatus" s="17" e="17"/>
+   <method old="getTag()Ljava/lang/String;" new="getTag" s="9" e="9"/>
+   <method old="getTakeCount()Ljava/lang/Integer;" new="getTakeCount" s="11" e="11"/>
+   <method old="getTimeType()Ljava/lang/Integer;" new="getTimeType" s="18" e="18"/>
+   <method old="getTotalQuota()Ljava/lang/Integer;" new="getTotalQuota" s="10" e="10"/>
+   <method old="getType()Ljava/lang/Integer;" new="getType" s="15" e="15"/>
+   <method old="getUsedCount()Ljava/lang/Integer;" new="getUsedCount" s="12" e="12"/>
+   <method old="getWithAmount()Ljava/lang/String;" new="getWithAmount" s="14" e="14"/>
+   <method old="hashCode()I" new="hashCode" s="5" e="5"/>
+   <method old="setDays(Ljava/lang/Integer;)V" new="setDays" s="5" e="5"/>
+   <method old="setDiscount(Ljava/lang/String;)V" new="setDiscount" s="5" e="5"/>
+   <method old="setEndTime(Ljava/lang/String;)V" new="setEndTime" s="5" e="5"/>
+   <method old="setLimitQuota(Ljava/lang/Integer;)V" new="setLimitQuota" s="5" e="5"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="5" e="5"/>
+   <method old="setRemark(Ljava/lang/String;)V" new="setRemark" s="5" e="5"/>
+   <method old="setStartTime(Ljava/lang/String;)V" new="setStartTime" s="5" e="5"/>
+   <method old="setStatus(Ljava/lang/Integer;)V" new="setStatus" s="5" e="5"/>
+   <method old="setTag(Ljava/lang/String;)V" new="setTag" s="5" e="5"/>
+   <method old="setTakeCount(Ljava/lang/Integer;)V" new="setTakeCount" s="5" e="5"/>
+   <method old="setTimeType(Ljava/lang/Integer;)V" new="setTimeType" s="5" e="5"/>
+   <method old="setTotalQuota(Ljava/lang/Integer;)V" new="setTotalQuota" s="5" e="5"/>
+   <method old="setType(Ljava/lang/Integer;)V" new="setType" s="5" e="5"/>
+   <method old="setUsedCount(Ljava/lang/Integer;)V" new="setUsedCount" s="5" e="5"/>
+   <method old="setWithAmount(Ljava/lang/String;)V" new="setWithAmount" s="5" e="5"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="5" e="5"/>
+   <field old="days Ljava/lang/Integer;" new="days"/>
+   <field old="discount Ljava/lang/String;" new="discount"/>
+   <field old="endTime Ljava/lang/String;" new="endTime"/>
+   <field old="limitQuota Ljava/lang/Integer;" new="limitQuota"/>
+   <field old="name Ljava/lang/String;" new="name"/>
+   <field old="remark Ljava/lang/String;" new="remark"/>
+   <field old="startTime Ljava/lang/String;" new="startTime"/>
+   <field old="status Ljava/lang/Integer;" new="status"/>
+   <field old="tag Ljava/lang/String;" new="tag"/>
+   <field old="takeCount Ljava/lang/Integer;" new="takeCount"/>
+   <field old="timeType Ljava/lang/Integer;" new="timeType"/>
+   <field old="totalQuota Ljava/lang/Integer;" new="totalQuota"/>
+   <field old="type Ljava/lang/Integer;" new="type"/>
+   <field old="usedCount Ljava/lang/Integer;" new="usedCount"/>
+   <field old="withAmount Ljava/lang/String;" new="withAmount"/>
+  </class>
+  <class old="com.example.hxds.rule.config.ExceptionAdvice" new="com.example.hxds.rule.config.ExceptionAdvice">
+   <method old="exceptionHandler(Ljava/lang/Exception;)Ljava/lang/String;" new="exceptionHandler" s="24" e="45"/>
+   <field old="log Lorg/slf4j/Logger;" new="log"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.CancelRuleController" new="com.example.hxds.rule.controller.CancelRuleController">
+   <method old="calculateDriverCancelOrder(Lcom/example/hxds/rule/controller/form/CalculateDriverCancelOrderForm;)Lcom/example/hxds/common/util/R;" new="calculateDriverCancelOrder" s="35" e="46"/>
+   <method old="checkCode(Ljava/lang/String;)Ljava/lang/String;" new="checkCode"/>
+   <method old="checkKey(Ljava/lang/String;)Ljava/lang/String;" new="checkKey"/>
+   <method old="searchCancelRuleById(Lcom/example/hxds/rule/controller/form/SearchCancelRuleByIdForm;)Lcom/example/hxds/common/util/R;" new="searchCancelRuleById" s="52" e="58"/>
+   <field old="cancelRuleService Lcom/example/hxds/rule/service/CancelRuleService;" new="cancelRuleService"/>
+   <field old="icode Ljava/lang/String;" new="icode"/>
+   <field old="tcode Ljava/lang/String;" new="tcode"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.CalculateProfitsharingForm" new="com.example.hxds.rule.controller.form.CalculateProfitsharingForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getAmount()Ljava/lang/String;" new="getAmount" s="22" e="22"/>
+   <method old="getOrderId()Ljava/lang/Long;" new="getOrderId" s="17" e="17"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setAmount(Ljava/lang/String;)V" new="setAmount" s="11" e="11"/>
+   <method old="setOrderId(Ljava/lang/Long;)V" new="setOrderId" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="amount Ljava/lang/String;" new="amount"/>
+   <field old="orderId Ljava/lang/Long;" new="orderId"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.SearchChargeRuleByIdForm" new="com.example.hxds.rule.controller.form.SearchChargeRuleByIdForm">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="ALLATORIxDEMO"/>
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="9" e="9"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="9" e="9"/>
+   <method old="getRuleId()Ljava/lang/Long;" new="getRuleId" s="15" e="15"/>
+   <method old="hashCode()I" new="hashCode" s="9" e="9"/>
+   <method old="setRuleId(Ljava/lang/Long;)V" new="setRuleId" s="9" e="9"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="9" e="9"/>
+   <field old="ruleId Ljava/lang/Long;" new="ruleId"/>
+  </class>
+  <class old="com.example.hxds.rule.db.dao.CancelRuleDao" new="com.example.hxds.rule.db.dao.CancelRuleDao">
+   <method old="searchCancelRuleById(J)Ljava/util/HashMap;" new="searchCancelRuleById"/>
+   <method old="searchCurrentRule(Ljava/util/Map;)Lcom/example/hxds/rule/db/pojo/CancelRuleEntity;" new="searchCurrentRule"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.CalculateIncentiveFeeForm" new="com.example.hxds.rule.controller.form.CalculateIncentiveFeeForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getAcceptTime()Ljava/lang/String;" new="getAcceptTime" s="23" e="23"/>
+   <method old="getDriverId()J" new="getDriverId" s="17" e="17"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setAcceptTime(Ljava/lang/String;)V" new="setAcceptTime" s="11" e="11"/>
+   <method old="setDriverId(J)V" new="setDriverId" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="acceptTime Ljava/lang/String;" new="acceptTime"/>
+   <field old="driverId J" new="driverId"/>
+  </class>
+  <class old="com.example.hxds.rule.service.impl.AwardRuleImpl$1" new="com.example.hxds.rule.service.impl.AwardRuleImpl$1">
+   <field old="this$0 Lcom/example/hxds/rule/service/impl/AwardRuleImpl;" new="this$0"/>
+   <field old="val$driverId J" new="val$driverId"/>
+   <field old="val$end Ljava/lang/String;" new="val$end"/>
+   <field old="val$start Ljava/lang/String;" new="val$start"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.ChargeRuleController" new="com.example.hxds.rule.controller.ChargeRuleController">
+   <method old="calculateOrderCharge(Lcom/example/hxds/rule/controller/form/CalculateOrderChargeForm;)Lcom/example/hxds/common/util/R;" new="calculateOrderCharge" s="48" e="54"/>
+   <method old="checkCode(Ljava/lang/String;)Ljava/lang/String;" new="checkCode"/>
+   <method old="checkKey(Ljava/lang/String;)Ljava/lang/String;" new="checkKey"/>
+   <method old="estimateOrderCharge(Lcom/example/hxds/rule/controller/form/EstimateOrderChargeForm;)Lcom/example/hxds/common/util/R;" new="estimateOrderCharge" s="35" e="41"/>
+   <method old="searchChargeRuleById(Lcom/example/hxds/rule/controller/form/SearchChargeRuleByIdForm;)Lcom/example/hxds/common/util/R;" new="searchChargeRuleById" s="60" e="66"/>
+   <field old="chargeRuleService Lcom/example/hxds/rule/service/ChargeRuleService;" new="chargeRuleService"/>
+   <field old="icode Ljava/lang/String;" new="icode"/>
+   <field old="tcode Ljava/lang/String;" new="tcode"/>
+  </class>
+  <class old="com.example.hxds.rule.db.dao.OrderDao" new="com.example.hxds.rule.db.dao.OrderDao">
+   <method old="searchCancelCountInDay(J)J" new="searchCancelCountInDay"/>
+   <method old="searchFinishCountInDay(J)J" new="searchFinishCountInDay"/>
+   <method old="searchFinishCountInRange(Ljava/util/Map;)J" new="searchFinishCountInRange"/>
+  </class>
+  <class old="com.example.hxds.rule.db.dao.AwardRuleDao" new="com.example.hxds.rule.db.dao.AwardRuleDao">
+   <method old="searchCurrentRule(Ljava/lang/String;)Lcom/example/hxds/rule/db/pojo/AwardRuleEntity;" new="searchCurrentRule"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.ProfitsharingRuleController" new="com.example.hxds.rule.controller.ProfitsharingRuleController">
+   <method old="calculateProfitsharing(Lcom/example/hxds/rule/controller/form/CalculateProfitsharingForm;)Lcom/example/hxds/common/util/R;" new="calculateProfitsharing" s="36" e="38"/>
+   <method old="checkCode(Ljava/lang/String;)Ljava/lang/String;" new="checkCode"/>
+   <method old="checkKey(Ljava/lang/String;)Ljava/lang/String;" new="checkKey"/>
+   <method old="searchProfitsharingRuleById(Lcom/example/hxds/rule/controller/form/SearchProfitsharingRuleByIdForm;)Lcom/example/hxds/common/util/R;" new="searchProfitsharingRuleById" s="44" e="45"/>
+   <field old="icode Ljava/lang/String;" new="icode"/>
+   <field old="profitsharingRuleService Lcom/example/hxds/rule/service/ProfitsharingRuleService;" new="profitsharingRuleService"/>
+   <field old="tcode Ljava/lang/String;" new="tcode"/>
+  </class>
+  <class old="com.example.hxds.rule.service.impl.ChargeRuleServiceImpl" new="com.example.hxds.rule.service.impl.ChargeRuleServiceImpl">
+   <method old="calculateOrderCharge(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/util/HashMap;" new="calculateOrderCharge" s="26" e="39"/>
+   <method old="insert(Lcom/example/hxds/rule/db/pojo/ChargeRuleEntity;)I" new="insert" s="47" e="48"/>
+   <method old="searchChargeRuleById(J)Ljava/util/HashMap;" new="searchChargeRuleById" s="53" e="54"/>
+   <field old="chargeRuleDao Lcom/example/hxds/rule/db/dao/ChargeRuleDao;" new="chargeRuleDao"/>
+   <field old="log Lorg/slf4j/Logger;" new="log"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.SearchProfitsharingRuleByIdForm" new="com.example.hxds.rule.controller.form.SearchProfitsharingRuleByIdForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="9" e="9"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="9" e="9"/>
+   <method old="getRuleId()Ljava/lang/Long;" new="getRuleId" s="15" e="15"/>
+   <method old="hashCode()I" new="hashCode" s="9" e="9"/>
+   <method old="setRuleId(Ljava/lang/Long;)V" new="setRuleId" s="9" e="9"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="9" e="9"/>
+   <field old="ruleId Ljava/lang/Long;" new="ruleId"/>
+  </class>
+  <class old="com.example.hxds.rule.service.impl.ProfitsharingRuleServiceImpl" new="com.example.hxds.rule.service.impl.ProfitsharingRuleServiceImpl">
+   <method old="calculateProfitsharing(JLjava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" new="calculateProfitsharing" s="32" e="51"/>
+   <method old="searchProfitsharingRuleById(J)Ljava/util/HashMap;" new="searchProfitsharingRuleById" s="57" e="58"/>
+   <field old="log Lorg/slf4j/Logger;" new="log"/>
+   <field old="orderCommentDao Lcom/example/hxds/rule/db/dao/OrderCommentDao;" new="orderCommentDao"/>
+   <field old="orderDao Lcom/example/hxds/rule/db/dao/OrderDao;" new="orderDao"/>
+   <field old="profitsharingRuleDao Lcom/example/hxds/rule/db/dao/ProfitsharingRuleDao;" new="profitsharingRuleDao"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.BaseController" new="com.example.hxds.rule.controller.BaseController">
+   <method old="checkCode(Ljava/lang/String;)Ljava/lang/String;" new="checkCode" s="16" e="25"/>
+   <method old="checkKey(Ljava/lang/String;)Ljava/lang/String;" new="checkKey" s="31" e="60"/>
+  </class>
+  <class old="com.example.hxds.rule.service.ProfitsharingRuleService" new="com.example.hxds.rule.service.ProfitsharingRuleService">
+   <method old="calculateProfitsharing(JLjava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" new="calculateProfitsharing"/>
+   <method old="searchProfitsharingRuleById(J)Ljava/util/HashMap;" new="searchProfitsharingRuleById"/>
+  </class>
+  <class old="com.example.hxds.rule.HxdsRuleApplication" new="com.example.hxds.rule.HxdsRuleApplication">
+   <method old="main([Ljava/lang/String;)V" new="main" s="22" e="23"/>
+  </class>
+  <class old="com.example.hxds.rule.db.dao.ProfitsharingRuleDao" new="com.example.hxds.rule.db.dao.ProfitsharingRuleDao">
+   <method old="searchCurrentRule(Ljava/lang/String;)Lcom/example/hxds/rule/db/pojo/ProfitsharingRuleEntity;" new="searchCurrentRule"/>
+   <method old="searchProfitsharingRuleById(J)Ljava/util/HashMap;" new="searchProfitsharingRuleById"/>
+  </class>
+  <class old="com.example.hxds.rule.service.impl.CancelRuleServiceImpl" new="com.example.hxds.rule.service.impl.CancelRuleServiceImpl">
+   <method old="calculateDriverCancelOrder(Ljava/lang/String;IIILjava/lang/String;)Ljava/util/HashMap;" new="calculateDriverCancelOrder" s="24" e="43"/>
+   <method old="searchCancelRuleById(J)Ljava/util/HashMap;" new="searchCancelRuleById" s="49" e="50"/>
+   <field old="cancelRuleDao Lcom/example/hxds/rule/db/dao/CancelRuleDao;" new="cancelRuleDao"/>
+   <field old="log Lorg/slf4j/Logger;" new="log"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.AwardRuleController" new="com.example.hxds.rule.controller.AwardRuleController">
+   <method old="calculateIncentiveFee(Lcom/example/hxds/rule/controller/form/CalculateIncentiveFeeForm;)Lcom/example/hxds/common/util/R;" new="calculateIncentiveFee" s="34" e="41"/>
+   <method old="checkCode(Ljava/lang/String;)Ljava/lang/String;" new="checkCode"/>
+   <method old="checkKey(Ljava/lang/String;)Ljava/lang/String;" new="checkKey"/>
+   <field old="awardRuleService Lcom/example/hxds/rule/service/AwardRuleService;" new="awardRuleService"/>
+   <field old="icode Ljava/lang/String;" new="icode"/>
+   <field old="tcode Ljava/lang/String;" new="tcode"/>
+  </class>
+  <class old="com.example.hxds.rule.service.impl.AwardRuleImpl" new="com.example.hxds.rule.service.impl.AwardRuleImpl">
+   <method old="calculateIncentiveFee(JLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="calculateIncentiveFee" s="29" e="66"/>
+   <field old="awardRuleDao Lcom/example/hxds/rule/db/dao/AwardRuleDao;" new="awardRuleDao"/>
+   <field old="log Lorg/slf4j/Logger;" new="log"/>
+   <field old="orderDao Lcom/example/hxds/rule/db/dao/OrderDao;" new="orderDao"/>
+  </class>
+  <class old="com.example.hxds.rule.db.pojo.ChargeRuleEntity" new="com.example.hxds.rule.db.pojo.ChargeRuleEntity">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getCode()Ljava/lang/String;" new="getCode" s="21" e="21"/>
+   <method old="getCreateTime()Ljava/util/Date;" new="getCreateTime" s="41" e="41"/>
+   <method old="getId()Ljava/lang/Long;" new="getId" s="16" e="16"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="26" e="26"/>
+   <method old="getRule()Ljava/lang/String;" new="getRule" s="31" e="31"/>
+   <method old="getStatus()Ljava/lang/Byte;" new="getStatus" s="36" e="36"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setCode(Ljava/lang/String;)V" new="setCode" s="11" e="11"/>
+   <method old="setCreateTime(Ljava/util/Date;)V" new="setCreateTime" s="11" e="11"/>
+   <method old="setId(Ljava/lang/Long;)V" new="setId" s="11" e="11"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="11" e="11"/>
+   <method old="setRule(Ljava/lang/String;)V" new="setRule" s="11" e="11"/>
+   <method old="setStatus(Ljava/lang/Byte;)V" new="setStatus" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="code Ljava/lang/String;" new="code"/>
+   <field old="createTime Ljava/util/Date;" new="createTime"/>
+   <field old="id Ljava/lang/Long;" new="id"/>
+   <field old="name Ljava/lang/String;" new="name"/>
+   <field old="rule Ljava/lang/String;" new="rule"/>
+   <field old="serialVersionUID J" new="serialVersionUID"/>
+   <field old="status Ljava/lang/Byte;" new="status"/>
+  </class>
+  <class old="com.example.hxds.rule.controller.form.CalculateOrderChargeForm" new="com.example.hxds.rule.controller.form.CalculateOrderChargeForm">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getMileage()Ljava/lang/String;" new="getMileage" s="17" e="17"/>
+   <method old="getMinute()Ljava/lang/Integer;" new="getMinute" s="27" e="27"/>
+   <method old="getTime()Ljava/lang/String;" new="getTime" s="22" e="22"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setMileage(Ljava/lang/String;)V" new="setMileage" s="11" e="11"/>
+   <method old="setMinute(Ljava/lang/Integer;)V" new="setMinute" s="11" e="11"/>
+   <method old="setTime(Ljava/lang/String;)V" new="setTime" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="mileage Ljava/lang/String;" new="mileage"/>
+   <field old="minute Ljava/lang/Integer;" new="minute"/>
+   <field old="time Ljava/lang/String;" new="time"/>
+  </class>
+  <class old="com.example.hxds.rule.db.pojo.ProfitsharingRuleEntity" new="com.example.hxds.rule.db.pojo.ProfitsharingRuleEntity">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getCode()Ljava/lang/String;" new="getCode" s="21" e="21"/>
+   <method old="getCreateTime()Ljava/util/Date;" new="getCreateTime" s="41" e="41"/>
+   <method old="getId()Ljava/lang/Long;" new="getId" s="16" e="16"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="26" e="26"/>
+   <method old="getRule()Ljava/lang/String;" new="getRule" s="31" e="31"/>
+   <method old="getStatus()Ljava/lang/Integer;" new="getStatus" s="36" e="36"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setCode(Ljava/lang/String;)V" new="setCode" s="11" e="11"/>
+   <method old="setCreateTime(Ljava/util/Date;)V" new="setCreateTime" s="11" e="11"/>
+   <method old="setId(Ljava/lang/Long;)V" new="setId" s="11" e="11"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="11" e="11"/>
+   <method old="setRule(Ljava/lang/String;)V" new="setRule" s="11" e="11"/>
+   <method old="setStatus(Ljava/lang/Integer;)V" new="setStatus" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="code Ljava/lang/String;" new="code"/>
+   <field old="createTime Ljava/util/Date;" new="createTime"/>
+   <field old="id Ljava/lang/Long;" new="id"/>
+   <field old="name Ljava/lang/String;" new="name"/>
+   <field old="rule Ljava/lang/String;" new="rule"/>
+   <field old="serialVersionUID J" new="serialVersionUID"/>
+   <field old="status Ljava/lang/Integer;" new="status"/>
+  </class>
+  <class old="com.example.hxds.rule.db.pojo.AwardRuleEntity" new="com.example.hxds.rule.db.pojo.AwardRuleEntity">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="11" e="11"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="11" e="11"/>
+   <method old="getCode()Ljava/lang/String;" new="getCode" s="21" e="21"/>
+   <method old="getCreateTime()Ljava/util/Date;" new="getCreateTime" s="41" e="41"/>
+   <method old="getId()Ljava/lang/Long;" new="getId" s="16" e="16"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="26" e="26"/>
+   <method old="getRule()Ljava/lang/String;" new="getRule" s="31" e="31"/>
+   <method old="getStatus()Ljava/lang/Byte;" new="getStatus" s="36" e="36"/>
+   <method old="hashCode()I" new="hashCode" s="11" e="11"/>
+   <method old="setCode(Ljava/lang/String;)V" new="setCode" s="11" e="11"/>
+   <method old="setCreateTime(Ljava/util/Date;)V" new="setCreateTime" s="11" e="11"/>
+   <method old="setId(Ljava/lang/Long;)V" new="setId" s="11" e="11"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="11" e="11"/>
+   <method old="setRule(Ljava/lang/String;)V" new="setRule" s="11" e="11"/>
+   <method old="setStatus(Ljava/lang/Byte;)V" new="setStatus" s="11" e="11"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="11" e="11"/>
+   <field old="code Ljava/lang/String;" new="code"/>
+   <field old="createTime Ljava/util/Date;" new="createTime"/>
+   <field old="id Ljava/lang/Long;" new="id"/>
+   <field old="name Ljava/lang/String;" new="name"/>
+   <field old="rule Ljava/lang/String;" new="rule"/>
+   <field old="serialVersionUID J" new="serialVersionUID"/>
+   <field old="status Ljava/lang/Byte;" new="status"/>
+  </class>
+  <class old="com.example.hxds.rule.service.ChargeRuleService" new="com.example.hxds.rule.service.ChargeRuleService">
+   <method old="calculateOrderCharge(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/util/HashMap;" new="calculateOrderCharge"/>
+   <method old="insert(Lcom/example/hxds/rule/db/pojo/ChargeRuleEntity;)I" new="insert"/>
+   <method old="searchChargeRuleById(J)Ljava/util/HashMap;" new="searchChargeRuleById"/>
+  </class>
+  <class old="com.example.hxds.rule.service.impl.CancelRuleServiceImpl$1" new="com.example.hxds.rule.service.impl.CancelRuleServiceImpl$1">
+   <field old="this$0 Lcom/example/hxds/rule/service/impl/CancelRuleServiceImpl;" new="this$0"/>
+   <field old="val$key Ljava/lang/String;" new="val$key"/>
+  </class>
+  <class old="com.example.hxds.rule.db.dao.ChargeRuleDao" new="com.example.hxds.rule.db.dao.ChargeRuleDao">
+   <method old="insert(Lcom/example/hxds/rule/db/pojo/ChargeRuleEntity;)I" new="insert"/>
+   <method old="searchChargeRuleById(J)Ljava/util/HashMap;" new="searchChargeRuleById"/>
+   <method old="searchCurrentRule(Ljava/lang/String;)Lcom/example/hxds/rule/db/pojo/ChargeRuleEntity;" new="searchCurrentRule"/>
+  </class>
+  <class old="com.example.hxds.rule.service.AwardRuleService" new="com.example.hxds.rule.service.AwardRuleService">
+   <method old="calculateIncentiveFee(JLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="calculateIncentiveFee"/>
+  </class>
+  <sources>
+   <source old="HxdsRuleApplication.java" new="qa"/>
+   <source old="Voucher.java" new="fa"/>
+   <source old="ExceptionAdvice.java" new="wa"/>
+   <source old="AwardRuleController.java" new="ea"/>
+   <source old="CancelRuleController.java" new="sa"/>
+   <source old="ChargeRuleController.java" new="ya"/>
+   <source old="ProfitsharingRuleController.java" new="ja"/>
+   <source old="BaseController.java" new="ta"/>
+   <source old="CalculateDriverCancelOrderForm.java" new="r"/>
+   <source old="CalculateIncentiveFeeForm.java" new="m"/>
+   <source old="CalculateOrderChargeForm.java" new="e"/>
+   <source old="CalculateProfitsharingForm.java" new="t"/>
+   <source old="EstimateOrderChargeForm.java" new="l"/>
+   <source old="SearchCancelRuleByIdForm.java" new="w"/>
+   <source old="SearchChargeRuleByIdForm.java" new="s"/>
+   <source old="SearchProfitsharingRuleByIdForm.java" new="h"/>
+   <source old="AwardRuleEntity.java" new="p"/>
+   <source old="CancelRuleEntity.java" new="v"/>
+   <source old="ChargeRuleEntity.java" new="y"/>
+   <source old="ProfitsharingRuleEntity.java" new="k"/>
+   <source old="AwardRuleImpl.java" new="q"/>
+   <source old="CancelRuleServiceImpl.java" new="b"/>
+   <source old="ChargeRuleServiceImpl.java" new="n"/>
+   <source old="ProfitsharingRuleServiceImpl.java" new="x"/>
+   <source old="AwardRuleDao.java" new="f"/>
+   <source old="CancelRuleDao.java" new="o"/>
+   <source old="ChargeRuleDao.java" new="i"/>
+   <source old="OrderCommentDao.java" new="a"/>
+   <source old="OrderDao.java" new="c"/>
+   <source old="ProfitsharingRuleDao.java" new="g"/>
+   <source old="AwardRuleService.java" new="z"/>
+   <source old="CancelRuleService.java" new="u"/>
+   <source old="ChargeRuleService.java" new="j"/>
+   <source old="ProfitsharingRuleService.java" new="d"/>
+  </sources>
+  <lines>
+   <line l="38"/>
+   <line l="87"/>
+   <line l="245"/>
+   <line l="81"/>
+   <line l="196"/>
+   <line l="195"/>
+   <line l="186"/>
+   <line l="121"/>
+   <line l="51"/>
+   <line l="77"/>
+   <line l="90"/>
+   <line l="37"/>
+   <line l="71"/>
+   <line l="107"/>
+   <line l="109"/>
+   <line l="232"/>
+   <line l="85"/>
+   <line l="244"/>
+   <line l="73"/>
+   <line l="11"/>
+   <line l="22"/>
+   <line l="193"/>
+   <line l="131"/>
+   <line l="143"/>
+   <line l="8"/>
+   <line l="214"/>
+   <line l="127"/>
+   <line l="185"/>
+   <line l="129"/>
+   <line l="58"/>
+   <line l="110"/>
+   <line l="92"/>
+   <line l="5"/>
+   <line l="139"/>
+   <line l="190"/>
+   <line l="124"/>
+   <line l="130"/>
+   <line l="169"/>
+   <line l="83"/>
+   <line l="101"/>
+   <line l="61"/>
+   <line l="207"/>
+   <line l="95"/>
+   <line l="97"/>
+   <line l="13"/>
+   <line l="103"/>
+   <line l="46"/>
+   <line l="198"/>
+   <line l="45"/>
+   <line l="210"/>
+   <line l="72"/>
+   <line l="175"/>
+   <line l="133"/>
+   <line l="108"/>
+   <line l="125"/>
+   <line l="171"/>
+   <line l="228"/>
+   <line l="148"/>
+   <line l="219"/>
+   <line l="179"/>
+   <line l="17"/>
+   <line l="68"/>
+   <line l="191"/>
+   <line l="247"/>
+   <line l="89"/>
+   <line l="202"/>
+   <line l="144"/>
+   <line l="9"/>
+   <line l="220"/>
+   <line l="217"/>
+   <line l="16"/>
+   <line l="86"/>
+   <line l="63"/>
+   <line l="163"/>
+   <line l="100"/>
+   <line l="123"/>
+   <line l="126"/>
+   <line l="55"/>
+   <line l="23"/>
+   <line l="215"/>
+   <line l="31"/>
+   <line l="47"/>
+   <line l="181"/>
+   <line l="122"/>
+   <line l="218"/>
+   <line l="147"/>
+   <line l="43"/>
+   <line l="93"/>
+   <line l="105"/>
+   <line l="53"/>
+   <line l="56"/>
+   <line l="7"/>
+   <line l="180"/>
+   <line l="104"/>
+   <line l="226"/>
+   <line l="227"/>
+   <line l="114"/>
+   <line l="74"/>
+   <line l="249"/>
+   <line l="162"/>
+   <line l="208"/>
+   <line l="137"/>
+   <line l="0"/>
+   <line l="49"/>
+   <line l="167"/>
+   <line l="102"/>
+   <line l="184"/>
+   <line l="94"/>
+   <line l="153"/>
+   <line l="241"/>
+   <line l="140"/>
+   <line l="106"/>
+   <line l="113"/>
+   <line l="161"/>
+   <line l="28"/>
+   <line l="212"/>
+   <line l="62"/>
+   <line l="135"/>
+   <line l="3"/>
+   <line l="88"/>
+   <line l="173"/>
+   <line l="80"/>
+   <line l="111"/>
+   <line l="96"/>
+   <line l="142"/>
+   <line l="19"/>
+   <line l="75"/>
+   <line l="178"/>
+   <line l="154"/>
+   <line l="59"/>
+   <line l="66"/>
+   <line l="250"/>
+   <line l="12"/>
+   <line l="132"/>
+   <line l="79"/>
+   <line l="54"/>
+   <line l="32"/>
+   <line l="41"/>
+   <line l="117"/>
+   <line l="84"/>
+   <line l="246"/>
+   <line l="156"/>
+   <line l="64"/>
+   <line l="168"/>
+   <line l="238"/>
+   <line l="69"/>
+   <line l="2"/>
+   <line l="213"/>
+   <line l="170"/>
+   <line l="65"/>
+   <line l="174"/>
+   <line l="15"/>
+   <line l="10"/>
+   <line l="209"/>
+   <line l="151"/>
+   <line l="194"/>
+   <line l="20"/>
+   <line l="211"/>
+   <line l="201"/>
+   <line l="242"/>
+   <line l="235"/>
+   <line l="138"/>
+   <line l="42"/>
+   <line l="157"/>
+   <line l="230"/>
+   <line l="136"/>
+   <line l="70"/>
+   <line l="176"/>
+   <line l="18"/>
+   <line l="128"/>
+   <line l="166"/>
+   <line l="239"/>
+   <line l="200"/>
+   <line l="203"/>
+   <line l="188"/>
+   <line l="159"/>
+   <line l="118"/>
+   <line l="78"/>
+   <line l="152"/>
+   <line l="224"/>
+   <line l="116"/>
+   <line l="158"/>
+   <line l="222"/>
+   <line l="225"/>
+   <line l="14"/>
+   <line l="164"/>
+   <line l="33"/>
+   <line l="99"/>
+   <line l="216"/>
+   <line l="165"/>
+   <line l="197"/>
+   <line l="146"/>
+   <line l="187"/>
+   <line l="119"/>
+   <line l="231"/>
+   <line l="27"/>
+   <line l="223"/>
+   <line l="24"/>
+   <line l="243"/>
+   <line l="1"/>
+   <line l="155"/>
+   <line l="172"/>
+   <line l="160"/>
+   <line l="34"/>
+   <line l="205"/>
+   <line l="149"/>
+   <line l="150"/>
+   <line l="141"/>
+   <line l="44"/>
+   <line l="233"/>
+   <line l="25"/>
+   <line l="120"/>
+   <line l="183"/>
+   <line l="206"/>
+   <line l="29"/>
+   <line l="6"/>
+   <line l="248"/>
+   <line l="60"/>
+   <line l="236"/>
+   <line l="82"/>
+   <line l="21"/>
+   <line l="204"/>
+   <line l="52"/>
+   <line l="221"/>
+   <line l="76"/>
+   <line l="98"/>
+   <line l="145"/>
+   <line l="192"/>
+   <line l="112"/>
+   <line l="48"/>
+   <line l="36"/>
+   <line l="115"/>
+   <line l="39"/>
+   <line l="237"/>
+   <line l="199"/>
+   <line l="40"/>
+   <line l="234"/>
+   <line l="240"/>
+   <line l="177"/>
+   <line l="50"/>
+   <line l="26"/>
+   <line l="182"/>
+   <line l="134"/>
+   <line l="30"/>
+   <line l="4"/>
+   <line l="229"/>
+   <line l="189"/>
+   <line l="67"/>
+   <line l="35"/>
+   <line l="91"/>
+   <line l="57"/>
+  </lines>
+ </mapping>
+</allatori>
